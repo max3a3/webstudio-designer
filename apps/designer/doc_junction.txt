@@ -1,0 +1,2 @@
+junction packages C:\work\other-libs\webstudio-designer\packages
+

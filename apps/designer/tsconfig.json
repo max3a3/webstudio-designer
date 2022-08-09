@@ -2,8 +2,11 @@
   "extends": "../../node_modules/@webstudio-is/tsconfig/remix.json",
   "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
   "compilerOptions": {
+    "jsx": "react-jsx",
     "paths": {
-      "~/*": ["app/*"]
+      "~/*": ["app/*"],
+      "@webstudio-is/react-sdk": ["packages/react-sdk/src/index.ts"],
+
     },
     "baseUrl": "."
   }

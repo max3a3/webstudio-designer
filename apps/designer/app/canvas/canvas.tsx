@@ -2,9 +2,9 @@ import { useCallback, useMemo, useState } from "react";
 import store from "immerhin";
 import * as db from "~/shared/db";
 import {
-  type OnChangeChildren,
-  type Data,
-  type Tree,
+  OnChangeChildren,
+  Data,
+  Tree,
   useAllUserProps,
   globalStyles,
   useSubscribe,

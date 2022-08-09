@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@webstudio-is/react-sdk/*":["./packages/react-sdk/src/*"],
+      "@/*": ["./src/*"]
+
+    }
+  }
+}

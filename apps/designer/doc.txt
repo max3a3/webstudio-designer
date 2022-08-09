@@ -1,0 +1,18 @@
+create junction of packages so webstorm linking work
+
+we do the packages in this directory so can just open the desginer/ folder in webstorm
+
+
+testing path alias in webstorm   mimicking
+apps/designer/app/canvas/testwebstorm.ts
+
+the paths alias has to have the index.ts
+
+
+      "@webstudio-is/react-sdk": ["packages/react-sdk/src/index.ts"],
+
+
+we added
+~/ alias from
+
+https://youtrack.jetbrains.com/issue/WEB-50015/Incorrect-javascript-import-path-using-aliases-when-working-on-WSL2
